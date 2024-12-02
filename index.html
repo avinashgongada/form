@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Forms</title>
+    <style>
+    fieldset{
+      width: 50%;
+      padding: 10px;
+      border-radius: 20px;
+      margin: auto;
+      background: linear-gradient(180deg,orange,red);
+      color: black;
+    }
+    legend{
+      background: linear-gradient(180deg,violet,yellow);
+      padding: 10px;
+      border: 1px solid red;
+      border-radius: 10px;
+    }
+  </style>
+    
+</head>
+<body>
+    <fieldset>
+        <legend>REGISTRATION FORM</legend>
+        <form name="regForm">
+            <table>
+                <!--ROW1-->
+                <tr>
+                    <td>
+                        First Name
+                    </td>
+                    <td>
+                        <input type="text" name="fname" placeholder="Enter First Name">
+                    </td>
+                    <td>
+                        <span>(***enter valid first name***)</span>
+                    </td>
+                </tr>
+                
+                
+                 <!--ROW2-->
+                 <tr>
+                    <td>
+                        last Name
+                    </td>
+                    <td>
+                        <input type="text" name="lname" placeholder="Enter last Name">
+                    </td>
+                    <td>
+                        <span>(***enter valid last name***)</span>
+                    </td>
+                </tr>
+                <!--ROW3-->
+                <tr>
+                    <td>
+                        password
+                    </td>
+                    <td>
+                        <input type="password" name="upwd" placeholder="Enter password">
+                    </td>
+                    <td>
+                        <span>(***enter valid last password***)</span>
+                    </td>
+                </tr>
+                <!--ROW4-->
+                <tr>
+                    <td>
+                        Email
+                    </td>
+                    <td>
+                        <input type="email" name="uemail" placeholder="Enter Email Address">
+                    </td>
+                    <td>
+                        <span>(***enter valid email***)</span>
+                    </td>
+                <!--ROW5-->
+                <tr>
+                    <td>
+                        Mobile
+                    </td>
+                    <td>
+                        <input type="emobile" name="umobile" placeholder="Enter Mobile Number">
+                    </td>
+                    <td>
+                        <span>(***enter valid mobile***)</span>
+                    </td>
+                </tr> 
+                <!--ROW6-->
+               <tr>
+                    <td>
+                        Age
+                    </td>
+                    <td>
+                        <input type="number" name="uage" placeholder="Enter Age">
+                    </td>
+                    <td>
+                        <span>(***enter valid age***)</span>
+                    </td>
+                    </tr>
+                <!--ROW7-->
+                <tr>
+                    <td>
+                        Gender
+                    </td>
+                    <td>
+                        <input type="radio" name="gender" placeholder="male">male
+                        <input type="radio" name="gender" placeholder="female">Female
+                    </td>
+                    <td>
+                        <span>(***select gender***)</span>
+                    </td>
+                </tr>
+            </tr>
+            <!--ROW8-->
+            <tr>
+                <td>
+                    Skills
+                </td>
+                <td>
+                    <input type="checbox" name="skills" placeholder="java">Java
+                    <input type="checbox" name="Skills" placeholder="dotnet">Dotnet
+                </td>
+                <td>
+                </td>
+            </tr>    
+                <!--ROW9-->
+                <tr>
+                    <td>
+                    </td>
+                    <td>
+                       <input type="checbox" name="skills" placeholder="java">Java
+                        <input type="checbox" name="Skills" placeholder="dotnet">Dotnet
+                    </td>
+                    <td></td>
+                </tr>
+            </tr>
+            <!--ROW10-->
+            <tr>
+                <td>
+                    Country
+                </td>
+                <td>
+                    <select name="Country">
+                        <option value="Select country">select </option>
+                        <option value="ind">India</option>
+                        <option value="usa">America</option>
+                        <option value="uk">London</option>
+                        <option value="china">China</option>
+                    </select>
+                </td>
+                <td>
+                    <span>(***select country***)</span>
+                </td>
+            </tr>
+
+            <!--ROW11-->
+            <tr>
+                <td>
+                    Date of Birth
+                </td>
+                <td>
+                    <input type="date" name="udob">
+                </td>
+                <td>
+                    <span>(***select date of birth***)</span>
+                </td>
+            </tr>
+
+            <!--ROW12-->
+            <tr>
+                <td>
+                    Time
+                </td>
+                <td>
+                    <input type="time" name="utime">
+                </td>
+                <td>
+                    <span>(***select time***)</span>
+                </td>
+            </tr>
+            <!--ROW13-->
+            <tr>
+                <td>
+                    Choose colr
+                </td>
+                <td>
+                    <input type="color" name="pcolor">
+                </td>
+                <td>
+                    <span>(***choose fav color***)</span>
+                </td>
+            </tr>
+            <!--ROW14-->
+            <tr>
+                <td>
+                    Address
+                </td>
+                <td>
+                    <input type="rows" name="uaddress">
+                </td>
+                <td>
+                    <span>(***enter valid address***)</span>
+                </td>
+            </tr>
+            <!--ROW15-->
+            <tr>
+                <td>
+                    <inpUt type="submit" value="REGISTER">
+                </td>
+
+                <td>
+                    <input type="reset" value="CLEAR">
+                </td>
+
+                <td></td>
+            </tr>
+
+            </table>
+        </form>
+    </fieldset>
+</body>
+</html>
